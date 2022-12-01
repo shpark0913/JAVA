@@ -6,6 +6,7 @@ public class ScannerExample {
 
 	public static void main(String[] args) throws Exception {
 
+
 		Scanner scanner = new Scanner(System.in);
 		String inputData;
 		
@@ -13,11 +14,11 @@ public class ScannerExample {
 			inputData = scanner.nextLine();
 			System.out.println("입력된 문자열 : \"" + inputData + "\"");
 			if (inputData.equals("q")) {
-				break;
+				break;		
 			}
 		}
-	
-		System.out.println("THE END");
+		
+		System.out.println("종료");
 	}
 
 }
