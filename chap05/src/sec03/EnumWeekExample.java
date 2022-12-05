@@ -28,7 +28,7 @@ public class EnumWeekExample {
 			today = Week.SATURDAY; break;
 		
 		}
-		
+		   
 		System.out.println("오늘의 요일은 "+ today + "입니다.");
 		
 		if (today == Week.SUNDAY) {
